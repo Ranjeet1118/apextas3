@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Responsive Layout</title>
+  <link rel="stylesheet" href="apextas3.css">
+</head>
+<body>
+
+  <!-- Animated Heading -->
+  <header class="hero-heading">
+    <h1>Responsive Layout</h1>
+    <p>Engaging, Adaptive & Modern UI Design</p>
+  </header>
+
+  <!-- Main Sections -->
+  <div class="main-container">
+
+    <!-- Responsive Design Boxes -->
+    <div class="section">
+      <h2>Responsive Design</h2>
+      <div class="box-container">
+        <div class="box">📱 Mobile Friendly</div>
+        <div class="box">💻 Desktop Layout</div>
+        <div class="box">📲 Tablet Adjustments</div>
+      </div>
+    </div>
+
+    <!-- Quiz Section -->
+    <div class="section" id="quiz-section">
+      <h2>Quiz</h2>
+      <div id="question">Loading...</div>
+      <div id="answer-buttons"></div>
+      <button id="next-btn">Next</button>
+      <div id="score-card" style="display:none;">
+        <h3 id="score-text"></h3>
+        <button onclick="startQuiz()" class="btn">Restart Quiz</button>
+      </div>
+    </div>
+
+    <!-- Joke Generator -->
+    <div class="section">
+      <h2>Joke Generator</h2>
+      <div id="joke">Click below to load a joke.</div>
+      <button id="fetchJokeBtn">Get Joke</button>
+    </div>
+  </div>
+
+  <script src="apextas3.js"></script>
+</body>
+</html>
